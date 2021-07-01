@@ -293,7 +293,9 @@ Qualquer dúvida, fiquem à vontade para nos procurar: francielly.neves2@gmail.c
  
 ## Outros Brokers de Eventos
  
-No roteiro, devido à sua interface de mais fácil uso, optamos por usar o RabbitMQ, mas há outros sistemas que poderíamos ter utilizado e que são também bastante famosos, tais como [Apache Kafka](https://kafka.apache.org/intro) e [Redis](https://redis.io/topics/pubsub).
+No roteiro, devido à sua interface de mais fácil uso, optamos por usar o RabbitMQ. 
+
+Mas há outros sistemas que poderíamos ter utilizado e que são também bastante famosos, tais como [Apache Kafka](https://kafka.apache.org/intro) e [Redis](https://redis.io/topics/pubsub).
  
 ## Créditos
  

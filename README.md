@@ -283,11 +283,11 @@ Ao terminar o projeto, sentimos falta de uma aplicação para gerar relatórios 
  
 Após uma venda ser entregue com sucesso, publicamos o resultado numa fila chamada `reports`. Portanto, para realizar a análise basta consumir os eventos publicados nessa fila.
  
-Seria possível nos ajudar, implementando uma aplicação que gere este relatório? O objetivo é bem simples: a cada compra devemos imprimir no console alguns dados básicos da mesma. 
+Seria possível nos ajudar, implementando uma aplicação que gere esse relatório? O objetivo é bem simples: a cada compra devemos imprimir no console alguns dados básicos da mesma. 
  
-Nós começamos a construir esse relatório e vocês podem usar o nosso código como [exemplo](/services/report/app.js). Nele, já implementamos as funções que atualizam o relatório e que imprime os dados de uma venda. Agora, falta apenas implementar o código que vai consumir da fila `reports`. 
+Nós começamos a construir esse relatório e vocês podem usar o nosso código como [exemplo](/services/report/app.js). Nele, já implementamos as funções que atualizam o relatório e que imprimem os dados de uma venda. Agora, falta apenas implementar o código que vai consumir da fila `reports`. 
 
-O nosso ,exemplo está em JavaScript, mas se preferir você pode consumir mensagens em outras linguagens de programação. Por exemplo, este [guia](https://www.rabbitmq.com/getstarted.html) explica como consumir mensagens em Python, C# , Ruby e JavaScript. 
+O nosso exemplo está em JavaScript, mas se preferir você pode consumir mensagens em outras linguagens de programação. Por exemplo, este [guia](https://www.rabbitmq.com/getstarted.html) explica como consumir mensagens em Python, C# , Ruby e JavaScript. 
  
 Qualquer dúvida, fiquem à vontade para nos procurar: francielly.neves2@gmail.com
  
